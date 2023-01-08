@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "myInt",
+				"outputs": [
+					{
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "myBool",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "stringValue",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/2_data_types.sol": "MyContract"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/2_data_types.sol": {
+			"keccak256": "0x82bb73dbf0bfd12f3ef96464a6e255a3f03855750ca8ca9d53906971c7b4b76f",
+			"urls": [
+				"bzzr://a24e20a539f8aab2b4ccbacf139ed64ec6174bc72d11c051e5b96a2558e770cf"
+			]
+		}
+	},
+	"version": 1
+}

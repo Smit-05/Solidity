@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_firstName",
+						"type": "string"
+					},
+					{
+						"name": "_lastName",
+						"type": "string"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "peopleCount",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"name": "_firstName",
+						"type": "string"
+					},
+					{
+						"name": "_lastName",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/3.sol": "DataTypes"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/3.sol": {
+			"keccak256": "0x85f2d1ad3b9b4792bd988bcfab5cfe50d6a40e9601d18acb0d2c10b07de3ccb1",
+			"urls": [
+				"bzzr://2b319127d0fb42494966199c95dd1d518681a1ea5c5dedd1f55ac37d83d08eaa"
+			]
+		}
+	},
+	"version": 1
+}
