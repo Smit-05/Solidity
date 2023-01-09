@@ -71,9 +71,9 @@
 	},
 	"sources": {
 		"contracts/4_tokens.sol": {
-			"keccak256": "0x6d0cda31445aaa875c15d7a54bb1caf609c40ef844c4b3a152cd5d050b22ef6d",
+			"keccak256": "0xeb833cabb57864d5c07d6a4c53b94e87f4a4dcebd3c7e9e543b12069630846fd",
 			"urls": [
-				"bzzr://900159e936ffb0c06bc4396c2fac65a1263a5b6216bdae68e8b272cfdacc3273"
+				"bzzr://b5aff57434ae54a4a09c705ee3e61c8ae66811a73fe04a27c3041c145e6fcf20"
 			]
 		}
 	},
