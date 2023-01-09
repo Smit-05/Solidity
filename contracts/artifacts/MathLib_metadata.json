@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_value1",
+						"type": "uint256"
+					},
+					{
+						"name": "_value2",
+						"type": "uint256"
+					}
+				],
+				"name": "calculate",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/6_math_lib_main.sol": "MathLib"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/6_math_lib.sol": {
+			"keccak256": "0xb37fd282899464ee779a1f0d0faa424666cf912cf006d365202a73ba83f47ab1",
+			"urls": [
+				"bzzr://fc63380993b376e705ba4735808cb18bbb2f2b2a40285e1da8edf6fc6bb1e1ae"
+			]
+		},
+		"contracts/6_math_lib_main.sol": {
+			"keccak256": "0x842d38b19a93cc791f01498be9ea359148b89ff1bcfb4fb5fa940ba55c48548a",
+			"urls": [
+				"bzzr://c0f70eb6e34d9002529b235cdf76996de6a89baa22e34940632ae7d9400f37e6"
+			]
+		}
+	},
+	"version": 1
+}
