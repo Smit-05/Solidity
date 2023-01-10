@@ -7,13 +7,45 @@
 		"abi": [
 			{
 				"constant": true,
-				"inputs": [
+				"inputs": [],
+				"name": "name",
+				"outputs": [
 					{
 						"name": "",
-						"type": "address"
+						"type": "string"
 					}
 				],
-				"name": "balances",
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_spender",
+						"type": "address"
+					},
+					{
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "approve",
+				"outputs": [
+					{
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "totalSupply",
 				"outputs": [
 					{
 						"name": "",
@@ -26,28 +58,173 @@
 			},
 			{
 				"constant": false,
-				"inputs": [],
-				"name": "buyToken",
-				"outputs": [],
-				"payable": true,
-				"stateMutability": "payable",
+				"inputs": [
+					{
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "transferFrom",
+				"outputs": [
+					{
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
+				"constant": true,
+				"inputs": [],
+				"name": "decimals",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
 				"inputs": [
 					{
-						"name": "_wallet",
+						"name": "",
 						"type": "address"
 					}
 				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "symbol",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [
+					{
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "address"
+					},
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "allowance",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
-				"payable": true,
-				"stateMutability": "payable",
-				"type": "fallback"
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Approval",
+				"type": "event"
 			}
 		],
 		"devdoc": {
@@ -59,7 +236,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/4_tokens.sol": "Token"
+			"contracts/8_token.sol": "Token"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -70,10 +247,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/4_tokens.sol": {
-			"keccak256": "0xeb833cabb57864d5c07d6a4c53b94e87f4a4dcebd3c7e9e543b12069630846fd",
+		"contracts/8_token.sol": {
+			"keccak256": "0x5097e48f4fd5cd43232736e0f9d3c1ebaea2c31f547e6cc17c60cf41ff1e9b05",
 			"urls": [
-				"bzzr://b5aff57434ae54a4a09c705ee3e61c8ae66811a73fe04a27c3041c145e6fcf20"
+				"bzzr://fa833a74ce58590c92ecc96497735fb12823175732549aadc0c7d70ae071200f"
 			]
 		}
 	},

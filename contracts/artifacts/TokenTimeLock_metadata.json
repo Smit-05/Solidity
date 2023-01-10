@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "benificiary",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "release",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "releaseTime",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "token",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "_token",
+						"type": "address"
+					},
+					{
+						"name": "_benificiary",
+						"type": "address"
+					},
+					{
+						"name": "_releaseTime",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/8_token_timelock.sol": "TokenTimeLock"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/8_token.sol": {
+			"keccak256": "0x5097e48f4fd5cd43232736e0f9d3c1ebaea2c31f547e6cc17c60cf41ff1e9b05",
+			"urls": [
+				"bzzr://fa833a74ce58590c92ecc96497735fb12823175732549aadc0c7d70ae071200f"
+			]
+		},
+		"contracts/8_token_timelock.sol": {
+			"keccak256": "0x3540e6d1168a39572479c47f0b3d56f84d32c5ed5a802665d34bcb734bc5aebd",
+			"urls": [
+				"bzzr://cb1e75640d1b332e5aaf172e3de7cda3c21d2047ac4f867423f0256d49ee98d3"
+			]
+		}
+	},
+	"version": 1
+}
